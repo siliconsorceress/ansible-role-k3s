@@ -4,12 +4,6 @@ name: CI
 'on':
   pull_request:
   push:
-    branches:
-      - master
-      - main
-      - v1_release
-  schedule:
-    - cron: "0 1 1 * *"
 
 defaults:
   run:
